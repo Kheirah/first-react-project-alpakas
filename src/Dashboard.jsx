@@ -1,6 +1,6 @@
 /* Default export */
-export default function Dashboard() {
-  return <h1>Dashboard</h1>;
+export default function Dashboard(props) {
+  return <h1>{props.title}</h1>;
 }
 
 /* Named export */
